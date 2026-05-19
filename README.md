@@ -114,7 +114,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 The JWT payload contains:
 ```json
 {
-  "sub": "dor.bismut@gmail.com",
+  "sub": "xxx@gmail.com",
   "exp": 1782162460,
   "iat": 1774386460
 }
@@ -412,7 +412,7 @@ for score, img_id, desc_id in all_scores:
 **1. Start Game**
 ```
 POST /api/apps/69aea07cbcb9a3dd1039a58d/functions/startGame
-Body: {"email": "dor.bismut@gmail.com"}
+Body: {"email": "xxx@gmail.com"}
 Response: 200 OK (2.2 MB — all game data)
 ```
 
